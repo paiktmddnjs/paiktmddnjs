@@ -37,8 +37,38 @@
 <br>
 
 
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      padding: 20px;
+      max-width: 600px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 28px;
+      color: #2c3e50;
+      border-bottom: 3px solid #3498db;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h1 .icon {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+      color: #34495e;
+      white-space: pre-wrap; /* 줄 바꿈 유지 */
+    }
+  </style>
 
-## :coffee: 나의 프로젝트명 (Project Name) : Servlet와 JSP을 이용한 MVC 패턴 기반으로 회원가입, 조회 등을 구현하는 웹 어플리케이션!!
+  <h1><span class="icon">☕</span> 나의 프로젝트명 (Project Name)</h1>
+  <p>
+    Servlet와 JSP을 이용한 MVC 패턴 기반으로 회원가입, 조회 등을 구현하는 웹 어플리케이션!!
+  </p>
 
 
 ## 📘 개요 (Overview)
