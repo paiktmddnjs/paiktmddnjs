@@ -187,12 +187,12 @@ project/
 
 | 기능 | 미리보기 |
 |------|-----------|
-| 로그인 화면 | ![Login Page](https://github.com/user-attachments/assets/6190ce6f-88e8-44e8-8691-2aaf3148c995) |
-| 회원가입 화면 | ![Register Page](./assets/register.png) |
-| 게시판 목록 | ![Board List](./assets/board-list.jpg) |
-| 게시글 작성 | ![Post Write](./assets/post-write.gif) |
+| 로그인 화면 | ![Login Page](https://github.com/user-attachments/assets/d3540190-d49e-49fd-a5af-70ee62026bf4) |
+| 회원가입 화면 | ![Register Page](https://github.com/user-attachments/assets/8b1bff78-36e4-42ea-8602-38db5f805c67) |
+| 게시판 목록 | ![Board List](https://github.com/user-attachments/assets/b88c192a-2ccb-4839-9603-04eb3a1a61b0) |
+| 게시글 작성 | ![Post Write](https://github.com/user-attachments/assets/6dcf4b1e-8982-440c-893f-382753a225ab) |
 | 게시글 상세보기 | ![Post Write](https://github.com/user-attachments/assets/8c23bf03-51d4-42e2-98eb-551dbf7fd764) |
-| 댓글 작성 | ![Post Write](./assets/post-write.gif) |
+| 댓글 작성 | ![Post Write](https://github.com/user-attachments/assets/33932ddf-8cc8-499c-be0a-b4d89f8791a9) |
 
 <br>
 
