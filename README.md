@@ -59,7 +59,7 @@
 ## 🧱 기술 스택 (Tech Stack)
 | 구분 | 사용 기술 |
 |------|------------|
-| Frontend | HTML, CSS, JavaScript, JSP |
+| Frontend | HTML, CSS, JavaScript, JSP , SQL|
 | Backend | Java (Servlet, JDBC)|
 | Server| Apache Tomcat |
 | Database | Oracle |
