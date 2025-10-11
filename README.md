@@ -159,7 +159,7 @@ project/
                   ┣ 📜listView.jsp						// 게시글들이 나열되는 페이지르 구현한 것이다.
                   ┗ 📜updateForm.jsp					// 게시글을 수정하기위한 페이지를 구현한 것이다.
             ┣ 📂common
-                  ┣ 📜error.jsp						// 각 기능에 대해 실패시 에러 메세지 출력을 구현하 것이다.
+                  ┣ 📜error.jsp							// 각 기능에 대해 실패시 에러 메세지 출력을 구현하 것이다.
                   ┗ 📜menubar.jsp						// 시작 페이지이다.
             ┗ 📂member
                   ┣ 📜enrollForm.jsp					// 회원가입 페이지를 구현한 것이다.
