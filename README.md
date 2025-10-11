@@ -187,7 +187,7 @@ project/
 ## 📸 화면 미리보기 (Preview)
 
 | 기능 | 미리보기 |
-|--------|-----------|
+|----------|-----------|
 | 로그인 화면 | ![Login Page](https://github.com/user-attachments/assets/d3540190-d49e-49fd-a5af-70ee62026bf4) |
 | 회원가입 화면 | ![Register Page](https://github.com/user-attachments/assets/8b1bff78-36e4-42ea-8602-38db5f805c67) |
 | 게시판 목록 | ![Board List](https://github.com/user-attachments/assets/b88c192a-2ccb-4839-9603-04eb3a1a61b0) |
