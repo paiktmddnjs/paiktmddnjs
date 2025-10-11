@@ -54,6 +54,7 @@
 	Eclipse + Tomcat 환경에서 실행 가능합니다.
 
 <br>
+<br>
 
 ## 🧱 기술 스택 (Tech Stack)
 | 구분 | 사용 기술 |
@@ -90,6 +91,7 @@ git clone https://github.com/paiktmddnjs/JSP/tree/main/jspProject
 - 브라우저에서 접속
 http://localhost:8080/jspProject
 
+<br>
 <br>
 
 ## 📂 프로젝트 구조 (Directory Structure)
@@ -167,6 +169,7 @@ project/
 </pre>
  
 <br>
+<br>
 
 ## 🌟 주요 기능 (Key Features)
 ✅ 회원가입 / 로그인 / 로그아웃 / 게시판 등록, 조회/ 댓글 등록 / 파일 첨부 기능 <br>
@@ -175,6 +178,7 @@ project/
 ✅ MVC 패턴 기반 구조로 모듈화된 개발 <br>
 ✅ JSP include를 통한 공통 레이아웃 구성
 
+<br>
 <br>
 
 ## 📸 화면 미리보기 (Preview)
