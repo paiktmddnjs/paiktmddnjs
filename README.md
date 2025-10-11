@@ -96,8 +96,8 @@ project/
                      ┗ 📜JDBCTemplate.java
                 ┣ 📂controller
                 ┣ 📂board
-                      ┣ 📜DeleteDetailForm.java
-                      ┣ 📜DetailController.java
+                      ┣ 📜DeleteDetailForm.java                                  // 상세 게시판에 대해 삭제하는 서블릿 컨트롤러이다. 
+                      ┣ 📜DetailController.java								 // 상세 게시판을 출력하기 위한 서블릿 컨트롤러이다.
                       ┣ 📜DetailUpdateView.java
                       ┣ 📜EnrollFromController.java
                       ┣ 📜InsertBoardController.java
