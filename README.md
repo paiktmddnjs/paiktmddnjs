@@ -117,12 +117,12 @@ project/
                         ┣ 📜board-mapper.xml
                         ┣ 📜file-mapper.xml
                         ┣ 📜member-mapper.xml
-                        ┗ 📜reply-mapper.xml                 # 공용 유틸 (JDBCTemplate 등)
+                        ┗ 📜reply-mapper.xml              
 
               
  ├── webapp/
      ├── WEB-INF/
-        ├── views/                                                 # JSP 뷰 페이지
+        ├── views/                                                
             ┣ 📂board
                   ┣ 📜detailView.jsp
                   ┣ 📜enrollFrom.jsp
@@ -134,13 +134,13 @@ project/
             ┗ 📂member
                   ┣ 📜enrollForm.jsp
                   ┗ 📜myPage.jsp
-        └── web.xml                                                # 배포 서술자
-     ├── resources/                                                 # CSS, JS, 이미지
-     └── index.jsp                                                  # 메인 페이지
+        └── web.xml                                             
+     ├── resources/                                             
+     └── index.jsp                                                
  └── README.md
 
  
-
+<br>
 
 ## 🌟 주요 기능 (Key Features)
 ✅ 회원가입 / 로그인 / 로그아웃 / 게시판 등록, 조회/ 댓글 등록 / 파일 첨부 기능
@@ -148,6 +148,8 @@ project/
 ✅ Oracle DB 연동을 통한 데이터 관리
 ✅ MVC 패턴 기반 구조로 모듈화된 개발
 ✅ JSP include를 통한 공통 레이아웃 구성
+
+<br>
 
 ## 📸 화면 미리보기 (Preview)
 
@@ -158,6 +160,7 @@ project/
 | 게시판 목록 | ![Board List](./assets/board-list.jpg) |
 | 게시글 작성 | ![Post Write](./assets/post-write.gif) |
 
+<br>
 
 ## 💡 학습 포인트 (Learning Points)
 
