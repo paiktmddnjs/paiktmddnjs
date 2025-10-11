@@ -1,4 +1,4 @@
-<stylr>
+<style>
 body {
   /* text-align: center; */
 }
@@ -133,7 +133,7 @@ body {
   color: white;
   margin: 0px;
 }
-</stylr>
+</style>
 
 ## Hi there 👋
 
