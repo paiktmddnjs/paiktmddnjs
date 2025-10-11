@@ -189,11 +189,9 @@ project/
 |------|-----------|
 | 로그인 화면 | ![Login Page](./assets/login.gif) |
 | 회원가입 화면 | ![Register Page](./assets/register.png) |
-| 회원 탈퇴 | ![Post Write](./assets/post-write.gif) |
-| 회원정보 수정 | ![Post Write](./assets/post-write.gif) |
 | 게시판 목록 | ![Board List](./assets/board-list.jpg) |
 | 게시글 작성 | ![Post Write](./assets/post-write.gif) |
-| 게시글 삭제 | ![Post Write](./assets/post-write.gif) |
+| 게시글 상세보기 | ![Post Write](./assets/post-write.gif) |
 | 댓글 작성 | ![Post Write](./assets/post-write.gif) |
 
 <br>
