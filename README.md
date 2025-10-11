@@ -64,74 +64,21 @@ http://localhost:8080/jspProject
 
 
 ## 📂 프로젝트 구조 (Directory Structure)
+project/
+ ├── src/
+ │   ├── com/project/controller/     # Servlet 컨트롤러
+ │   ├── com/project/model/dao/      # 데이터 접근 로직 (DAO)
+ │   ├── com/project/model/vo/       # VO (Value Object)
+ │   ├── com/project/service/        # 비즈니스 로직
+ │   └── com/project/common/         # 공용 유틸 (JDBCTemplate 등)
+ ├── webapp/
+ │   ├── WEB-INF/
+ │   │   ├── views/                  # JSP 뷰 페이지
+ │   │   └── web.xml                 # 배포 서술자
+ │   ├── resources/                  # CSS, JS, 이미지
+ │   └── index.jsp                   # 메인 페이지
+ └── README.md
 
-📦src
- ┗ 📂main
- ┃ ┣ 📂java
- ┃ ┃ ┣ 📂com
- ┃ ┃ ┃ ┗ 📂kh
- ┃ ┃ ┃ ┃ ┗ 📂jsp
- ┃ ┃ ┃ ┃ ┃ ┣ 📂common
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜JDBCTemplate.java
- ┃ ┃ ┃ ┃ ┃ ┣ 📂controller
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂board
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DeleteDetailForm.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DetailController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DetailUpdateView.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜EnrollFromController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜InsertBoardController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜ListController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UpdateFormController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂member
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜DeleteController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜EnrollFromController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜InsertController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LoginController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜LogoutController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MyPageController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜UpdateController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜UpdatePwdController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂reply
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜insertReplyController.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReplyController.java
- ┃ ┃ ┃ ┃ ┃ ┣ 📂model
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📂dao
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜BoardDao.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FileDao.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MemberDao.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReplyDao.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📂vo
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜Board.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FileUpload.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜Member.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜Reply.java
- ┃ ┃ ┃ ┃ ┃ ┗ 📂service
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜BoardService.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜FileService.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┣ 📜MemberService.java
- ┃ ┃ ┃ ┃ ┃ ┃ ┗ 📜ReplyService.java
- ┃ ┃ ┗ 📂db
- ┃ ┃ ┃ ┣ 📂driver
- ┃ ┃ ┃ ┃ ┗ 📜driver.properties
- ┃ ┃ ┃ ┗ 📂sql
- ┃ ┃ ┃ ┃ ┣ 📜board-mapper.xml
- ┃ ┃ ┃ ┃ ┣ 📜file-mapper.xml
- ┃ ┃ ┃ ┃ ┣ 📜member-mapper.xml
- ┃ ┃ ┃ ┃ ┗ 📜reply-mapper.xml
-
- ┣📂WEB-INF
- ┃ ┣ 📂views
- ┃ ┃ ┣ 📂board
- ┃ ┃ ┃ ┣ 📜detailView.jsp
- ┃ ┃ ┃ ┣ 📜enrollFrom.jsp
- ┃ ┃ ┃ ┣ 📜listView.jsp
- ┃ ┃ ┃ ┗ 📜updateForm.jsp
- ┃ ┃ ┣ 📂common
- ┃ ┃ ┃ ┣ 📜error.jsp
- ┃ ┃ ┃ ┗ 📜menubar.jsp
- ┃ ┃ ┗ 📂member
- ┃ ┃ ┃ ┣ 📜enrollForm.jsp
- ┃ ┃ ┃ ┗ 📜myPage.jsp
  
 
 
