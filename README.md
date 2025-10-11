@@ -70,6 +70,8 @@ http://localhost:8080/jspProject
 <br>
 
 ## 📂 프로젝트 구조 (Directory Structure)
+
+<pre>
 project/
  ├── src/main/java
                 ┣ 📂common
@@ -139,7 +141,7 @@ project/
      ├── resources/                                             
      └── index.jsp                                                
  └── README.md
-
+</pre>
  
 <br>
 
