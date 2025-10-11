@@ -30,6 +30,7 @@
 	Oracle 데이터베이스와 JDBC를 통해 데이터 연동을 수행하며,  
 	Eclipse + Tomcat 환경에서 실행 가능합니다.
 
+<br>
 
 ## 🧱 기술 스택 (Tech Stack)
 | 구분 | 사용 기술 |
@@ -66,7 +67,7 @@ git clone https://github.com/paiktmddnjs/JSP/tree/main/jspProject
 - 브라우저에서 접속
 http://localhost:8080/jspProject
 
-
+<br>
 
 ## 📂 프로젝트 구조 (Directory Structure)
 project/
