@@ -1,5 +1,5 @@
 
-![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=Paiktmddnjs&fontAlign=30&fontSize=30&textBg=true&desc=Welcome<br>Paik's%20Project&descAlign=60&descAlignY=50)
+![rect](https://capsule-render.vercel.app/api?type=rect&color=gradient&text=Paiktmddnjs&fontAlign=30&fontSize=30&textBg=true&desc=Welcome%20Paik's%20Project&descAlign=60&descAlignY=50)
 
 <br>
 ### 💻 Language
