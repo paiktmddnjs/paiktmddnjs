@@ -96,22 +96,22 @@ project/
                      ┗ 📜JDBCTemplate.java
                 ┣ 📂controller
                 ┣ 📂board
-                      ┣ 📜DeleteDetailForm.java							// 상세 게시판에 대해 삭제하는 서블릿 컨트롤러이다. 
-                      ┣ 📜DetailController.java							// 상세 게시판을 출력하기 위한 서블릿 컨트롤러이다.
-                      ┣ 📜DetailUpdateView.java							// 상세 게시판을 수정페이지로 가기위한 서블릿 컨트롤러이다.
-                      ┣ 📜EnrollFromController.java						// 게시글을 등록하기 위한 서블릿 컨트롤러이다.
-                      ┣ 📜InsertBoardController.java					// 게시글을 등록할때 정보를 Oracle로 저장하기위한 서블릿 컨트롤러이다.
-                      ┣ 📜ListController.java							// 게시판을 들어갔을때 게시글들이 나오도록 처리하는 서블릿 컨트롤러이다.
-                      ┗ 📜UpdateFormController.java						// 상세 페이지를 수정하기 위해 처리하는 서블릿 컨트롤러이다.
+                      ┣ 📜DeleteDetailForm.java					// 상세 게시판에 대해 삭제하는 서블릿 컨트롤러이다. 
+                      ┣ 📜DetailController.java					// 상세 게시판을 출력하기 위한 서블릿 컨트롤러이다.
+                      ┣ 📜DetailUpdateView.java					// 상세 게시판을 수정페이지로 가기위한 서블릿 컨트롤러이다.
+                      ┣ 📜EnrollFromController.java				// 게시글을 등록하기 위한 서블릿 컨트롤러이다.
+                      ┣ 📜InsertBoardController.java			// 게시글을 등록할때 정보를 Oracle로 저장하기위한 서블릿 컨트롤러이다.
+                      ┣ 📜ListController.java					// 게시판을 들어갔을때 게시글들이 나오도록 처리하는 서블릿 컨트롤러이다.
+                      ┗ 📜UpdateFormController.java				// 상세 페이지를 수정하기 위해 처리하는 서블릿 컨트롤러이다.
                 ┣ 📂member
-                       ┣ 📜DeleteController.java
-                       ┣ 📜EnrollFromController.java
-                       ┣ 📜InsertController.java
-                       ┣ 📜LoginController.java
-                       ┣ 📜LogoutController.java
-                       ┣ 📜MyPageController.java
-                       ┣ 📜UpdateController.java
-                       ┗ 📜UpdatePwdController.java
+                       ┣ 📜DeleteController.java					// 회원 정보를 삭제 처리를 위한 서블릿 컨트롤러이다.
+                       ┣ 📜EnrollFromController.java			// 회원가입을 위한 페이지로 이동을 처리하기 위한 서블릿 컨트롤러이다.
+                       ┣ 📜InsertController.java					// 회원가입을 위해 정보를 Oracle로 insert 처리하기 위한 서블릿 컨트롤러이다.
+                       ┣ 📜LoginController.java					// 회원의 로그인을 처리하기위한 서블릿 컨트롤러이다.
+                       ┣ 📜LogoutController.java					// 로그아웃을 위한 서블릿 컨트롤러이다.
+                       ┣ 📜MyPageController.java					// 로그인후 마이페이지로 가기 위한 처리를 하는 서블릿 컨트롤러이다.
+                       ┣ 📜UpdateController.java					// 회원정보의 수정을 처리하기 위한 서블릿 컨트롤러이다.			
+                       ┗ 📜UpdatePwdController.java				// 마이페이지에서 비밀번로 수정을 처리하기 위한 서블릿 컨트롤러이다.
                 ┗ 📂reply
                         ┣ 📜insertReplyController.java
                         ┗ 📜ReplyController.java
