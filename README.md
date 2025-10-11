@@ -122,29 +122,29 @@ project/
                        ┣ 📜UpdateController.java			// 회원정보의 수정을 처리하기 위한 서블릿 컨트롤러이다.			
                        ┗ 📜UpdatePwdController.java			// 마이페이지에서 비밀번로 수정을 처리하기 위한 서블릿 컨트롤러이다.
                 ┗ 📂reply
-                        ┣ 📜insertReplyController.java
-                        ┗ 📜ReplyController.java
+                        ┣ 📜insertReplyController.java		// 댓글을 등록할때의 댓글 정보를 저장하기 위해 처리해주는 서블릿 컨트롤러이다.
+                        ┗ 📜ReplyController.java		// Oracle로부터 저장된 댓글들을 각 게시판별로 불러오는 것을 처리해주는 서블릿 컨트롤러이다.
                 ┣ 📂model
                 ┣ 📂dao
-                        ┣ 📜BoardDao.java
+                        ┣ 📜BoardDao.java				// Oracle과의 연결객체를 만들어 해당 객체에 sql문을 대입시켜 Oracle에 insert하거나 delter 또는 update 같은 기능을 한다.
                         ┣ 📜FileDao.java
                         ┣ 📜MemberDao.java
                         ┗ 📜ReplyDao.java
                 ┗ 📂vo
-                        ┣ 📜Board.java
+                        ┣ 📜Board.java					// 서버를 통해 받은 정보들을 담아 두기 위한 객체들이다.
                         ┣ 📜FileUpload.java
                         ┣ 📜Member.java
                         ┗ 📜Reply.java
                 ┗ 📂service
-                        ┣ 📜BoardService.java
+                        ┣ 📜BoardService.java			// Oracle에서 가져온 데이터에 대한 처리, 계산, 검증, 변환 작업 등 핵심적인 비즈니스 규칙을 수행한다.(commit, rollback)
                         ┣ 📜FileService.java
                         ┣ 📜MemberService.java
                         ┗ 📜ReplyService.java
                 ┗ 📂db
                 ┣ 📂driver
-                        ┗ 📜driver.properties
+                        ┗ 📜driver.properties			// DB에 접속하기 위한 정보를 개별적으로 배치해둔 파일이다.
                 ┗ 📂sql
-                        ┣ 📜board-mapper.xml
+                        ┣ 📜board-mapper.xml			// Dao에서 사용하기 위한 sql문을 따로 배치해둔 xml파일이다.
                         ┣ 📜file-mapper.xml
                         ┣ 📜member-mapper.xml
                         ┗ 📜reply-mapper.xml              
