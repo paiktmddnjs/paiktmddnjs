@@ -76,27 +76,24 @@
 <br>
 
 
-<div align="center">
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paiktmddnjs&layout=compact)
-	
-</div>
-
-<br>
-
 
 <div align="center"> <!-- Profile Summary Cards (Top Row) -->
-  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/transparent/0-profile-details.svg" alt="Profile Details" />
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/github/0-profile-details.svg" alt="Profile Details" />
 </div>
 
 <br>
+
+<div align="center"> <!-- Profile Summary Cards (Middle Row) -->
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/github/1-repos-per-language.svg" alt="Top Languages by Repo" width="370px" />
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/github/2-most-commit-language.svg" alt="Top Languages by Commit" width="370px" />
+</div>
 
 
 <br>
 
 <div align="center"> <!-- Profile Summary Cards (Bottom Row) -->
-  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/transparent/3-stats.svg" alt="GitHub Stats" width="370px" />
-  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/transparent/4-productive-time.svg" alt="Productive Time (Commits)" width="370px" />
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/github/3-stats.svg" alt="GitHub Stats" width="370px" />
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/github/4-productive-time.svg" alt="Productive Time (Commits)" width="370px" />
 </div>
 
 <br>
