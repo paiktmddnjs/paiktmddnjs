@@ -15,9 +15,9 @@
 - 👯 개발부터 배포까지의 전체 라이프사이클을 이해하는 **클라우드 네이티브 백엔드 개발자** 혹은 **DevOps 엔지니어**가 되기 위해 매일 성장 중입니다!
 - ✒️ 프로젝트 진행 중 마주하는 이슈(403 Error, 트래픽 처리 등)를 능동적으로 파악하고 해결 과정을 문서화하는 것을 즐깁니다.
 
-<div align="center"> ### 💻 Language </div>
+<div align="center"> <h2>💻 Language </h2></div>
 
-<br>
+
 
 <div align="center">
   <!-- Backend & Core Languages -->
@@ -28,12 +28,10 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=HTML5&logoColor=white" /> &nbsp;
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=CSS3&logoColor=white" />
 </div>
-<br>
-<br>
-
-<div align="center"> ### 🛠️ Frameworks & Libraries </div>
 
 <br>
+
+<div align="center"> <h2>🛠️ Frameworks & Libraries</h2></div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white" /> &nbsp;
@@ -44,9 +42,8 @@
 <br>
 <br>
 
-<div align="center"> ### 🗄️ Database & ORM </div>
+<div align="center"> <h2>🗄️ Database & ORM</h2> </div>
 
-<br>
 
 <div align="center">
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" /> &nbsp;
@@ -58,9 +55,8 @@
 <br>
 <br>
 
-<div align="center"> ### ☁️ Infra & DevOps Tools </div>
+<div align="center"> <h2>☁️ Infra & DevOps Tools </h2></div>
 
-<br>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white" /> &nbsp;
@@ -82,18 +78,25 @@
 
 <div align="center">
 
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=paiktmddnjs&show_icons=true&theme=transparent) 
-&ensp;
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=paiktmddnjs&layout=compact)
 	
 </div>
 
 <br>
 
-<div align="center">
-  
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=paiktmddnjs&theme=transparent)
 
+<div align="center"> <!-- Profile Summary Cards (Top Row) -->
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/transparent/0-profile-details.svg" alt="Profile Details" />
+</div>
+
+<br>
+
+
+<br>
+
+<div align="center"> <!-- Profile Summary Cards (Bottom Row) -->
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/transparent/3-stats.svg" alt="GitHub Stats" width="370px" />
+  <img src="https://raw.githubusercontent.com/paiktmddnjs/paiktmddnjs/main/profile-summary-card-output/transparent/4-productive-time.svg" alt="Productive Time (Commits)" width="370px" />
 </div>
 
 <br>
